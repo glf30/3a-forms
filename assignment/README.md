@@ -56,7 +56,7 @@ Build a profile setup form that allows a user to enter their basic information.
 * On form submission, display the input information below the form.  If not every field is filled out, alert the user.  The bio (textarea), however, can be optional
 
 * STRETCH GOALS:
-    * Add a checkbox property `Subscribed` that can be toggled on and off.  The display area should now display if the user is a subscriber or not.
+    * Add a checkbox property `Subscribed` that can be toggled on and off.  The display area should now specify if the user is a subscriber or not.
     * Introduce validation.  (Name has to be a certain length, bio has to be a certain length, etc.) Display warning text in the UI if validation has not been followed.
     * When displaying the Profile data, use a separate component for the display.  The information to display should be passed in via props.
 
