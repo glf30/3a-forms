@@ -43,15 +43,18 @@ Build a profile setup form that allows a user to enter their basic information.
 
   * An input for **name**
   * An input for age
+  * An input for location
   * An email input for **email**
   * A dropdown (`select`) for **role**
-    * Example roles: `Student`, `Instructor`, `Guest`
+    * Roles: `Student`, `Admin`, `Instructor`, `Guest`
   * A textarea for **bio**
 
 * All input values must be managed with React state
 
 * Store all form values in a single state object
 
-* On form submission, display the input information below the form.
+* On form submission, display the input information below the form.  If not every field is filled out, alert the user.  
+
+* STRETCH GOAL: Add a checkbox property `Subscribed` that can be toggled on and off.  The display area should now display if the user is a subscriber or not.
 
 ---
