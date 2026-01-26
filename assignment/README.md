@@ -27,7 +27,7 @@ Build a simple form that captures and submits a single message.
 
 * After submission, clear the input
 
-* DO NOT allow the user to submit an empty message! If they do, display a warning message
+* DO NOT allow the user to submit an empty message! If they do, display an alert
 
 ---
 
@@ -43,10 +43,10 @@ Build a profile setup form that allows a user to enter their basic information.
 
 * The form must include:
 
-  * A text input for **name**
+  * An input for **name**
+  * An input for age
   * An email input for **email**
   * A dropdown (`select`) for **role**
-
     * Example roles: `Student`, `Instructor`, `Guest`
   * A textarea for **bio**
 
