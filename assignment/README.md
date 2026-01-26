@@ -2,8 +2,6 @@
 
 This assignment focuses on building form components in React using `useState`.
 
-You will complete **two independent exercises**.
-
 ---
 
 ## Part 1: Message Sender Form
