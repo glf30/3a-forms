@@ -53,7 +53,7 @@ Build a profile setup form that allows a user to enter their basic information.
 
 * Store all form values in a single state object
 
-* On form submission, display the input information below the form.  If not every field is filled out, alert the user.  
+* On form submission, display the input information below the form.  If not every field is filled out, alert the user.  The bio (textarea), however, can be optional
 
 * STRETCH GOALS:
     * Add a checkbox property `Subscribed` that can be toggled on and off.  The display area should now display if the user is a subscriber or not.
